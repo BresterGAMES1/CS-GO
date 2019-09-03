@@ -1,0 +1,24 @@
+@media (max-width: 600px) {
+    body{
+        margin: 0;
+    }
+    .menu {
+        position: static;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .menu a {
+        width: 100%;
+        padding: 10px 0px;
+        margin: 0;
+    }
+    .main {
+        margin: 2%;
+        width: 95%;
+    }
+    .team {
+        width: 80%;
+        margin: 10px 0;
+    }
+}

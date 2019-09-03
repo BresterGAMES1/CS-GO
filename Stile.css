@@ -1,0 +1,112 @@
+body {
+    background-image: url(img/Fon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.menu a {
+    padding: 1%;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin: 0px 15px;
+    display: block;
+    width: 80%;
+}
+
+.menu {
+    text-align: center;
+    width: 25%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.menu a:hover {
+    background-color: white;
+    color: black;
+}
+
+.main {
+    margin-left: 27%;
+    width: 70%;
+}
+
+h1, h2 {
+    color: white;
+}
+
+#history {
+    color: #ffff4e;
+    text-align: justify;
+    font-size: 22px;
+}
+
+#history span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.team {
+    display: inline-block;
+    width: 20%;
+    border: 7px groove black;
+    margin: 5px 15px;
+    vertical-align: top;
+    padding: 2%;
+}
+
+.team img {
+    width: 100%;
+}
+
+#best_teams {
+    text-align: center;
+    color: #ffff4e;
+}
+h2 {
+    text-align: center;
+}
+#matchs {
+    text-align: center;
+}
+
+#matchs p {
+    display: inline-block;
+    margin: 0px 2px;
+    border: 3px groove black;
+}
+#ssilki a {
+    text-decoration: none;
+    color: black;
+    border: 7px groove black;
+    background-color: white;
+    margin: 4px 5px;
+    text-align: center;
+    padding: 10px 15px;
+    display: inline-block;
+} 
+#ssilki {
+    text-align: center;
+}
+#ssilki a:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+.team a {
+    text-decoration: none;
+    color: black;
+    background-color: #ffff4e;
+    padding: 5px 15px;
+    display: block;
+}
+.team a:hover {
+    background-color: white;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
